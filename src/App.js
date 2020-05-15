@@ -1,13 +1,15 @@
-import React from 'react'
-import './App.css'
-// import { Background, Header } from './component/Style'
+import React from 'react';
+import 'antd/dist/antd.css'
+import { Background } from './components/style'
+import SurveyCard from './SurveyCard'
+import { List } from 'antd'
+import ReactApexChart from "react-apexcharts"
+import ApexCharts from 'apexcharts'
 
 export default function App() {
   return (
-    <div>
-      {/* <Header> */}
-        My Todos
-      {/* </Header> */}
-    </div>
+    <Background>
+      55555
+    </Background>
   )
 }

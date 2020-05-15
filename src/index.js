@@ -1,13 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
+import SurveyCard from './SurveyCard'
+import Graph from './Graph'
+import Leaderboard from './Leaderboard'
+import Analytics from './components/Analytics'
 
-const AppWithRouter = () => (
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-)
 
-ReactDOM.render(<AppWithRouter />, document.getElementById('root'))
+ReactDOM.render(<Graph />, document.getElementById('root'))
